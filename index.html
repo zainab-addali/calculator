@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+<body>
+<div class="container-all">
+    <input id="printAll-el"></input>
+    
+    <div class="all-buttons">
+        <div class="row" id="row1">
+            <button  class="btn-font" onclick="print('7')">7</button>
+            <button  class="btn-font" onclick="print('8')">8</button>
+            <button  class="btn-font" onclick="print('9')">9</button>
+            <button  class="btn-font" onclick="print('+')">+</button>
+        </div>
+        <div class="row" id="row2">
+            <button  class="btn-font" onclick="print('4')">4</button>
+            <button  class="btn-font" onclick="print('5')">5</button>
+            <button  class="btn-font" onclick="print('6')">6</button>
+            <button  class="btn-font" onclick="print('-')">-</button>
+        </div>
+        <div class="row" id="row3">
+            <button  class="btn-font" onclick="print('1')">1</button>
+            <button  class="btn-font" onclick="print('2')">2</button>
+            <button  class="btn-font" onclick="print('3')">3</button>
+            <button  class="btn-font" onclick="print('*')">*</button>
+        </div>
+        <div class="row" id="row4">
+            <button class="btn-font" onclick="print('0')">0</button>
+            <button class="btn-font" onclick="deleteAll()">c</button>
+            <button class="btn-font" onclick="result()">=</button>
+            <button class="btn-font" onclick="print('/')">/</button>
+        </div>
+    </div>
+
+</div>
+
+
+    
+    <script src="./calculator.js"></script>
+</body>
+</html>
